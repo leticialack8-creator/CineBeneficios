@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cinema Descontos</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <header>
+    <div class="logo">CINEMA</div>
+
+    <nav>
+  <a href="#inicio">Início</a>
+  <a href="#filmes">Filmes</a>
+  <a href="#descontos">Descontos</a>
+</nav>
+
+  </header>
+
+  <section id="inicio" class="hero">
+    <h1>CINEMA DESCONTOS</h1>
+    <p>Ingressos com até 50% de desconto e promoções exclusivas!</p>
+    <div class="hero-icons">
+      <span>🍿 Pipoca</span>
+      <span>🎬 Claquete</span>
+      <span>🎟️ Ticket</span>
+    </div>
+  </section>
+
+  <section id="filmes" class="em-cartaz">
+    <h2>Em Cartaz</h2>
+    <input
+  type="search"
+  id="pesquisa-filme"
+  placeholder="Pesquise um filme..."
+  aria-label="Pesquisar filmes"
+>
+<p id="sem-resultados" hidden>
+  Nenhum filme encontrado.
+</p>
+    <div class="filmes">
+      <div class="filme">
+  <img src="https://via.placeholder.com/200x300?text=A+Volta" alt="A Volta">
+  <h3>A Volta</h3>
+  <p>Gênero: Drama</p>
+  <p>Duração: 1h 45min</p>
+  <button type="button" class="ver-detalhes">Ver detalhes</button>
+  <p class="detalhes" hidden>
+    Uma história fictícia sobre reencontros, desafios e novos começos.
+  </p>
+</div>
+      <div class="filme">
+  <img src="https://via.placeholder.com/200x300?text=Confusao" alt="Confusão">
+  <h3>Confusão</h3>
+  <p>Gênero: Comédia</p>
+  <p>Duração: 1h 30min</p>
+  <button type="button" class="ver-detalhes">Ver detalhes</button>
+  <p class="detalhes" hidden>
+    Uma comédia fictícia sobre situações inesperadas
+    e muitas confusões.
+  </p>
+</div>
+      <div class="filme">
+  <img src="https://via.placeholder.com/200x300?text=O+Grande+Golpe" alt="O Grande Golpe">
+  <h3>O Grande Golpe</h3>
+  <p>Gênero: Suspense</p>
+  <p>Duração: 2h 05min</p>
+  <button type="button" class="ver-detalhes">Ver detalhes</button>
+  <p class="detalhes" hidden>
+    Um suspense fictício envolvendo um plano
+    arriscado e acontecimentos surpreendentes.
+  </p>
+</div>
+      <div class="filme">
+  <img src="https://via.placeholder.com/200x300?text=Flores+do+Campo" alt="Flores do Campo">
+  <h3>Flores do Campo</h3>
+  <p>Gênero: Romance</p>
+  <p>Duração: 1h 50min</p>
+  <button type="button" class="ver-detalhes">Ver detalhes</button>
+  <p class="detalhes" hidden>
+    Uma história fictícia sobre amor, escolhas
+    e novos caminhos.
+  </p>
+</div>
+    </div>
+  </section>
+
+  <div class="cupons-container">
+
+  <div class="cupom">
+    <h3>50% de Desconto</h3>
+    <p>CINEMA50</p>
+    <button class="copiar-cupom" data-cupom="CINEMA50">
+      Copiar cupom
+    </button>
+  </div>
+
+  <div class="cupom">
+    <h3>10% OFF</h3>
+    <p>CINEMA10</p>
+    <button class="copiar-cupom" data-cupom="CINEMA10">
+      Copiar cupom
+    </button>
+  </div>
+
+</div>
+
+<p id="mensagem-cupom" role="status" aria-live="polite"></p>
+  </section>
+<script src="script.js"></script>
+</body>
+</html>
