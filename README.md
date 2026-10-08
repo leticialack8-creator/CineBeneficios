@@ -1,5 +1,8 @@
 
 # 🎬 CineBenefícios
+## 🌐 Acesse o projeto
+
+[Clique aqui para visualizar o site funcionando](https://leticialack8-creator.github.io/CineBeneficios/)
 
 Projeto acadêmico de uma interface web para apresentação de filmes e cupons de desconto demonstrativos.
 
